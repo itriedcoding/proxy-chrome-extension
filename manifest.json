@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "GlobalProxy Pro: Free & Live Network",
+  "version": "1.0.0",
+  "description": "Access 300+ live proxies across NA, EU, and SA. Real-time status checks and one-click application.",
+  "permissions": [
+    "storage",
+    "proxy",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://proxylist.geonode.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.svg"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

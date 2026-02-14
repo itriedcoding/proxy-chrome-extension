@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlobalProxy Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="glass-container">
+    <header>
+      <h1>GlobalProxy <span>Pro</span></h1>
+      <div class="status-badge" id="proxyStatus">System: Direct</div>
+    </header>
+
+    <div class="controls">
+      <select id="regionFilter">
+        <option value="all">All Regions</option>
+        <option value="US">North America (US)</option>
+        <option value="DE">Europe (Germany)</option>
+        <option value="BR">South America (Brazil)</option>
+        <option value="FR">Europe (France)</option>
+        <option value="GB">Europe (UK)</option>
+      </select>
+      <button id="refreshBtn" class="btn-primary">Refresh List</button>
+      <button id="clearBtn" class="btn-danger">Reset</button>
+    </div>
+
+    <div class="proxy-list-container" id="listContainer">
+      <div class="loader">Fetching 300+ Proxies...</div>
+    </div>
+
+    <div id="notification" class="hidden"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -9,10 +9,9 @@ Production-ready proxy manager that fetches real-time data from Geonode's public
 - **No Mocks**: Every proxy is pulled from a live production registry.
 
 ## Setup
-1. Download/Extract files.
-2. Open Chrome -> `chrome://extensions`.
-3. Enable **Developer Mode**.
-4. Click **Load Unpacked** and select the folder.
+1. Open the poput/chrome extension.
+2. Choose your region (North America, South America, and Europe)
+3. Click connect on one of the proxies.
 
 ## Important Note
 Free public proxies can be volatile. If a connection fails, simply click 'Refresh' and try another node in the list. This extension uses the Geonode API which checks proxies every few minutes.

@@ -15,3 +15,4 @@ Production-ready proxy manager that fetches real-time data from Geonode's public
 
 ## Important Note
 Free public proxies can be volatile. If a connection fails, simply click 'Refresh' and try another node in the list. This extension uses the Geonode API which checks proxies every few minutes.
+Note: This is fully open source, so any code here is fully made for personal use.
